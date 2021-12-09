@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #333;
+}
+.hero {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+.hero-info {
+    width: 90%;
+    margin: 30px auto;
+}
+.hero-info h2 {
+    color: orange;
+    margin-bottom: 15px;
+}
+.hero-info p {
+    margin-bottom: 15px;
+}
+.hero-info button {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+.hero-image {
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
