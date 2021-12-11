@@ -14,8 +14,8 @@ h2 {
 }
 p {
     font-size: 1.6rem;
-    font-weight: normal;
-    color: #333;
+    font-weight: 500;
+    color: white;
 }
 
 .backgroung-hero {
@@ -43,6 +43,7 @@ p {
     height: 60px;
     background-color: #F5A31A;
     border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(243, 149, 13, 0.3);
     font-size: 2rem;
     font-weight: bold;
     color: white;
@@ -50,15 +51,22 @@ p {
     margin-bottom: 15px;
     margin-left: calc(50% - 100px);
 }
+.hero-info button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .hero-image {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    border-radius: 60%;
+    box-shadow: 0px 15px 10px rgba(243, 149, 13, 0.3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
 }
+
 .dishes {
     width: 90%;
     margin: 0 auto;
@@ -71,7 +79,6 @@ p {
 .dishes-grid {
     display: grid;
     width: 100%;
-    max-width: 400px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr 1fr;
     gap: 15px;
@@ -80,6 +87,7 @@ p {
 .dishes-item {
     width: 100%;
     height: 100%;
+    border-radius: 10%;
     object-fit: cover;
 }
 .video{
@@ -89,7 +97,7 @@ p {
 .plates {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .plates h2 {
     text-align: center;
@@ -98,7 +106,6 @@ p {
 .plates-grid {
     display: grid;
     width: 100%;
-    max-width: 400px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 15px;
@@ -110,5 +117,19 @@ p {
     height: 100%;
     object-fit: contain;
     background-color: papayawhip;
+    box-shadow: 0px 5px 10px rgba(243, 149, 13, 0.3);
     border-radius: 25% 0 25% 0;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #FFDA77;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #F5A31A;
+    margin-left: 10px;
 }
